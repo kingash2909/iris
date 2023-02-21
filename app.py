@@ -36,7 +36,7 @@ log_reg.fit(X_train, y_train)
 
 
 
-@st.cache_data
+@st.cache()
 def prediction(_model, sepal_length, sepal_width, petal_length, petal_width):
 	
 
